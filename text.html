@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="Ohg9Sg6IHUg8ZiVYxF8t4NhK48dfFfvN5Ci3LIEDCBc" />
+    <title>textspech</title>
+    <link rel="stylesheet" href="text.css">
+   
+
+</head>
+<body>
+    <div class="hero">
+        <h1>Text to speech <span>convetor</span></h1>
+        <textarea  id="result" placeholder="Write anything here . . ." required></textarea>
+       
+        <div class="row">
+            <select><img src="bx-chevron-down (1).svg"></select>
+            <button><img src="bx-play.svg">Listen</button>
+            <button id="start"><img src="bx-microphone.svg">Start Recording</button>
+            <button id="stop"><img src="bx-microphone-off.svg">Stop Recording</button>
+            <button onclick="copy()"><img src="bxs-copy.svg">
+                <span id="copy-btn">Copy</span>
+            </button>
+        </div>
+      
+    </div>
+    <script src="text.js"></script>
+    <script src="voice.js"></script>
+    <script src="copy.js"></script>
+    <script src="auto.js"></script>
+</body>
+</html>
